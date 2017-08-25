@@ -1,0 +1,344 @@
+.ta-center {
+  text-align: center; }
+
+.ta-left {
+  text-align: left; }
+
+.ta-right {
+  text-align: right; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: lighter; }
+
+h1 {
+  font-size: 3em; }
+
+h2 {
+  font-size: 2.5em; }
+
+h3 {
+  font-size: 2em; }
+
+h4 {
+  font-size: 1.5em; }
+
+h5 {
+  font-size: 1.25em; }
+
+h6 {
+  font-size: 1em; }
+
+body {
+  margin: 0;
+  padding: 10px 0;
+  font-family: "Roboto", "Helvetica", sans-serif;
+  font-weight: lighter; }
+
+*.no-outline button {
+  outline: none; }
+
+.btn-outline {
+  position: static;
+  display: inline-block;
+  background-color: transparent;
+  border: 1px solid #e7e7e7;
+  border-color: #757474;
+  color: #757474;
+  padding: 10px 15px;
+  margin: 5px 2px;
+  border-radius: 3px;
+  font-size: 1.1em;
+  text-align: center;
+  cursor: pointer;
+  outline: none; }
+
+.btn-outline:hover {
+  color: #333; }
+
+.btn-outline.red {
+  border-color: #ff5b5b;
+  color: #ff5b5b; }
+
+.btn-outline.red:hover {
+  border-color: #ec4949;
+  color: #ec4949; }
+
+.btn-outline.red:active {
+  border-color: #d03e3e;
+  color: #d03e3e; }
+
+.btn-outline.blue {
+  border-color: #19aff3;
+  color: #19aff3; }
+
+.btn-outline.blue:hover {
+  border-color: #1b9eda;
+  color: #1b9eda; }
+
+.btn-outline.blue:active {
+  border-color: #1390ca;
+  color: #1390ca; }
+
+.btn-outline.green {
+  border-color: #40b345;
+  color: #40b345; }
+
+.btn-outline.green:hover {
+  border-color: #329036;
+  color: #329036; }
+
+.btn-outline.green:active {
+  border-color: #328835;
+  color: #328835; }
+
+.btn-outline.orange {
+  border-color: #ff9f12;
+  color: #ff9f12; }
+
+.btn-outline.orange:hover {
+  border-color: #ef7c07;
+  color: #ef7c07; }
+
+.btn-outline.orange:active {
+  border-color: #e08c0e;
+  color: #e08c0e; }
+
+.btn-outline.pink {
+  border-color: #ff1d6a;
+  color: #ff1d6a; }
+
+.btn-outline.pink:hover {
+  border-color: #e6004e;
+  color: #e6004e; }
+
+.btn-outline.pink:active {
+  border-color: #ce1956;
+  color: #ce1956; }
+
+.btn-outline.black {
+  border-color: #000000;
+  color: #000000; }
+
+.btn-outline.black:hover {
+  border-color: #313131;
+  color: #313131; }
+
+.btn-outline.purple {
+  border-color: #ca22e6;
+  color: #ca22e6; }
+
+.btn-outline.purple:hover {
+  border-color: #b427cc;
+  color: #b427cc; }
+
+.btn-outline.purple:active {
+  border-color: #9716ad;
+  color: #9716ad; }
+
+.btn-outline.brown {
+  border-color: #846458;
+  color: #846458; }
+
+.btn-outline.brown:hover {
+  border-color: #63453a;
+  color: #63453a; }
+
+.btn-outline.brown:active {
+  border-color: #50342a;
+  color: #50342a; }
+
+.btn-outline.pink {
+  border-color: #ff1d6a;
+  color: #ff1d6a; }
+
+.btn-outline.pink:hover {
+  border-color: #e6004e;
+  color: #e6004e; }
+
+.btn-outline.pink:active {
+  border-color: #ce1956;
+  color: #ce1956; }
+
+.btn-outline.gray {
+  border-color: #647e8a;
+  color: #647e8a; }
+
+.btn-outline.gray:hover {
+  border-color: #556871;
+  color: #556871; }
+
+.btn-outline.gray:active {
+  border-color: #37474e;
+  color: #37474e; }
+
+.btn-default {
+  position: static;
+  display: inline-block;
+  background-color: #fff;
+  border: 1px solid #e7e7e7;
+  padding: 10px 15px;
+  border-radius: 3px;
+  font-size: 1.1em;
+  text-align: center;
+  margin: 5px 2px;
+  cursor: pointer; }
+
+.btn-default:hover {
+  background-color: #f3f3f3; }
+
+.btn-default:active {
+  background-color: #eae9e9; }
+
+.btn-default.fluid {
+  width: 100%; }
+
+.btn-default.block {
+  display: block; }
+
+.btn-default.large {
+  padding: 20px 25px;
+  font-size: 1.3em; }
+
+.btn-default.upper {
+  font-size: 1em;
+  text-transform: uppercase; }
+
+.btn-default.red {
+  background-color: #ff5b5b;
+  color: #fff; }
+
+.btn-default.red:hover {
+  background-color: #ec4949; }
+
+.btn-default.red:active {
+  background-color: #d03e3e; }
+
+.btn-default.blue {
+  background-color: #19aff3;
+  color: #fff; }
+
+.btn-default.blue:hover {
+  background-color: #1b9eda; }
+
+.btn-default.blue:active {
+  background-color: #1390ca; }
+
+.btn-default.green {
+  background-color: #40b345;
+  color: #fff; }
+
+.btn-default.green:hover {
+  background-color: #329036; }
+
+.btn-default.green:active {
+  background-color: #328835; }
+
+.btn-default.orange {
+  background-color: #ff9f12;
+  color: #fff; }
+
+.btn-default.orange:hover {
+  background-color: #ef7c07; }
+
+.btn-default.orange:active {
+  background-color: #e08c0e; }
+
+.btn-default.purple {
+  background-color: #ca22e6;
+  color: #fff; }
+
+.btn-default.purple:hover {
+  background-color: #b427cc; }
+
+.btn-default.purple:active {
+  background-color: #9716ad; }
+
+.btn-default.black {
+  background-color: #000000;
+  color: #fff; }
+
+.btn-default.black:hover {
+  background-color: #313131; }
+
+.btn-default.gray {
+  background-color: #647e8a;
+  color: #fff; }
+
+.btn-default.gray:hover {
+  background-color: #556871; }
+
+.btn-default.gray:active {
+  background-color: #37474e; }
+
+.btn-default.pink {
+  background-color: #ff1d6a;
+  color: #fff; }
+
+.btn-default.pink:hover {
+  background-color: #e6004e; }
+
+.btn-default.pink:active {
+  background-color: #ce1956; }
+
+.btn-default.brown {
+  background-color: #846458;
+  color: #fff; }
+
+.btn-default.brown:hover {
+  background-color: #63453a; }
+
+.btn-default.brown:active {
+  background-color: #50342a; }
+
+.container {
+  position: relative;
+  display: flex;
+  padding: 0 25px;
+  flex-direction: column; }
+
+.row {
+  display: flex;
+  width: 100%;
+  position: relative;
+  flex-direction: row;
+  flex-wrap: wrap; }
+
+.col.md1 {
+  flex-basis: calc(100% / 12); }
+
+.col.md2 {
+  flex-basis: calc(100% / 6); }
+
+.col.md3 {
+  flex-basis: calc( 100% / 4); }
+
+.col.md4 {
+  flex-basis: calc( 100% / 3); }
+
+.col.md5 {
+  flex-basis: 41.67%; }
+
+.col.md6 {
+  flex-basis: calc(100% / 2); }
+
+.col.md7 {
+  flex-basis: calc(100% / 6); }
+
+.col.md8 {
+  flex-basis: calc( 100% / 4); }
+
+.col.md9 {
+  flex-basis: calc( 100% / 3); }
+
+.col.md10 {
+  flex-basis: 41.67%; }
+
+.col.md11 {
+  flex-basis: calc(100% / 2); }
+
+.col.md12 {
+  flex-basis: calc(100% / 1); }
+
+@media screen and (max-width: 720px) {
+  .container {
+    padding: 0 0; } }

@@ -1,0 +1,6 @@
+.btn-default {
+  position: static;
+  display: inline-block;
+  background-color: #fff;
+  border: 1px solid transparent;
+  border-radius: 3px; }

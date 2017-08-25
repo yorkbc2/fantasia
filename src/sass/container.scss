@@ -1,0 +1,82 @@
+$col1: calc(100% / 12);
+$col2: calc(100% / 6 );
+$col3: calc( 100% / 4);
+$col4: calc( 100% / 3);
+$col5: 41.67%;
+$col6: calc(100% / 2);
+$col7: 58.33333%;
+$col8: 66.66666666667%;
+$col9: 75%;
+$col10: 83.3%;
+$col11: 91.67%;
+$col12: calc(100% / 1);
+
+.container {
+  position: relative;
+  display: flex;
+  padding: 0 25px;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  width: 100%;
+  position: relative;
+  
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.panel {
+  width: 100%;
+  padding: 15px 0;
+  min-height: 40px;
+  background-color: #fff3f3;
+  border: 1px solid #e7e7e7;
+  border-radius: 3px;
+}
+
+.col {
+  &.md1 {
+    flex-basis: $col1;
+  }
+  &.md2 {
+    flex-basis: $col2;
+  }
+  &.md3 {
+    flex-basis: $col3;
+  }
+  &.md4 {
+    flex-basis: $col4;
+  }
+  &.md5 {
+    flex-basis: $col5;
+  }
+  &.md6 {
+    flex-basis: $col6;
+  }
+  &.md7 {
+    flex-basis: $col2;
+  }
+  &.md8 {
+    flex-basis: $col3;
+  }
+  &.md9 {
+    flex-basis: $col4;
+  }
+  &.md10 {
+    flex-basis: $col5;
+  }
+  &.md11 {
+    flex-basis: $col6;
+  }
+  &.md12 {
+    flex-basis: $col12;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .container {
+    padding: 0 0;
+  }
+}

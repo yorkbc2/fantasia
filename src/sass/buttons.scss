@@ -1,0 +1,330 @@
+@import "components/colors.scss";
+
+// Fonts 
+$l-font: "Roboto", "Helvetica", sans-serif;
+$l-weight: lighter;
+// ----------
+
+// Borders
+$l-btn-border: 1px solid #e7e7e7;
+// ----------
+// Margins
+
+$l-btn-margin: 5px 2px;
+
+//--------------
+// Paddings
+
+$l-btn-padding: 10px 15px;
+$l-btn-padding-lg: 20px 25px;
+
+//------------
+
+body {
+  margin: 0;
+  padding: 10px 0;
+  
+  font-family: $l-font;
+  font-weight: $l-weight;
+}
+
+*.no-outline {
+  button {
+    outline: none;
+  }
+}
+
+.btn-outline {
+  position: static;
+  display: inline-block;
+  
+  background-color: transparent;
+  border: $l-btn-border;
+  border-color: #757474;
+  color: #757474;
+  
+  padding: $l-btn-padding;
+  margin: $l-btn-margin;
+  
+  border-radius: 3px;
+  font-size: 1.1em;
+  text-align: center;
+  cursor: pointer;
+  
+  outline: none;
+  
+  &:hover {
+    color: #333;
+  }
+  
+  &.red {
+    border-color: $l-red;
+    color: $l-red;
+    &:hover {
+      border-color: $l-red-hover;
+      color: $l-red-hover;
+    }
+    &:active {
+      border-color: $l-red-active;
+      color: $l-red-active;
+    }
+  }
+  
+  &.blue {
+    border-color: $l-blue;
+    color: $l-blue;
+    &:hover {
+      border-color: $l-blue-hover;
+      color: $l-blue-hover;
+    }
+    &:active {
+      border-color: $l-blue-active;
+      color: $l-blue-active;
+    }
+  }
+  
+  &.green {
+    border-color: $l-green;
+    color: $l-green;
+    &:hover {
+      border-color: $l-green-hover;
+      color: $l-green-hover;
+    }
+    &:active {
+      border-color: $l-green-active;
+      color: $l-green-active;
+    }
+  }
+  
+  &.orange {
+    border-color: $l-orange;
+    color: $l-orange;
+    &:hover {
+      border-color: $l-orange-hover;
+      color: $l-orange-hover;
+    }
+    &:active {
+      border-color: $l-orange-active;
+      color: $l-orange-active;
+    }
+  }
+  
+  &.pink {
+    border-color: $l-pink;
+    color: $l-pink;
+    &:hover {
+      border-color: $l-pink-hover;
+      color: $l-pink-hover;
+    }
+    &:active {
+      border-color: $l-pink-active;
+      color: $l-pink-active;
+    }
+  }
+  &.black {
+    border-color: $l-black;
+    color: $l-black;
+    &:hover {
+      border-color: $l-black-hover;
+      color: $l-black-hover;
+    }
+  }
+
+  
+  &.purple {
+    border-color: $l-purple;
+    color: $l-purple;
+    &:hover {
+      border-color: $l-purple-hover;
+      color: $l-purple-hover;
+    }
+    &:active {
+      border-color: $l-purple-active;
+      color: $l-purple-active;
+    }
+  }
+  
+  &.brown {
+    border-color: $l-brown;
+    color: $l-brown;
+    &:hover {
+      border-color: $l-brown-hover;
+      color: $l-brown-hover;
+    }
+    &:active {
+      border-color: $l-brown-active;
+      color: $l-brown-active;
+    }
+  }
+  
+  &.pink {
+    border-color: $l-pink;
+    color: $l-pink;
+    &:hover {
+      border-color: $l-pink-hover;
+      color: $l-pink-hover;
+    }
+    &:active {
+      border-color: $l-pink-active;
+      color: $l-pink-active;
+    }
+  }
+  
+  &.gray {
+    border-color: $l-gray;
+    color: $l-gray;
+    &:hover {
+      border-color: $l-gray-hover;
+      color: $l-gray-hover;
+    }
+    &:active {
+      border-color: $l-gray-active;
+      color: $l-gray-active;
+    }
+  }
+  
+  
+}
+
+.btn-default {
+  position: static;
+  display: inline-block;
+  
+  background-color: $l-white;
+  border: $l-btn-border;
+  
+  padding: $l-btn-padding;
+  
+  border-radius: 3px;
+  font-size: 1.1em;
+  text-align: center;
+  
+  margin: $l-btn-margin;
+  
+  cursor: pointer;
+  
+  &:hover {
+    background-color: $l-white-hover;
+  }
+  
+  &:active {
+    background-color: $l-white-active;
+  }
+  
+  &.fluid {
+    width: 100%;
+  }
+  
+  &.block {
+    display: block;
+  }
+  
+  &.large {
+    padding: $l-btn-padding-lg;
+    font-size: 1.3em;
+  }
+
+  &.upper {
+    font-size: 1em;
+    text-transform: uppercase;
+  }
+  
+  &.red {
+    background-color: $l-red;
+    color: $l-white;
+    &:hover {
+      background-color: $l-red-hover;
+    }
+    &:active {
+      background-color: $l-red-active;
+    }
+  }
+  
+  &.blue {
+    background-color: $l-blue;
+    color: $l-white;
+    &:hover {
+      background-color: $l-blue-hover;
+    }
+    &:active {
+      background-color: $l-blue-active;
+    }
+  }
+  
+  &.green {
+    background-color: $l-green;
+    color: $l-white;
+    
+    &:hover {
+      background-color: $l-green-hover;
+    }
+    &:active {
+      background-color: $l-green-active;
+    }
+  }
+  
+  &.orange {
+    background-color: $l-orange;
+    color: $l-white;
+    &:hover {
+      background-color: $l-orange-hover;
+    }
+    &:active {
+      background-color: $l-orange-active;
+    }
+  }
+  
+  &.purple {
+    background-color: $l-purple;
+    color: $l-white;
+    &:hover {
+      background-color: $l-purple-hover;
+    }
+    &:active {
+      background-color: $l-purple-active;
+    }
+  }
+  
+  &.black {
+    background-color: $l-black;
+    color: $l-white;
+    &:hover {
+      background-color: $l-black-hover;
+    }
+  }
+  
+  &.gray {
+    background-color: $l-gray;
+    color: $l-white;
+    
+    &:hover {
+      background-color: $l-gray-hover;
+    }
+    
+    &:active {
+      background-color: $l-gray-active;
+    }
+  }
+  
+  &.pink {
+    background-color: $l-pink;
+    color: $l-white;
+    &:hover {
+      background-color: $l-pink-hover;
+    }
+    &:active {
+      background-color: $l-pink-active;
+    }
+  }
+  &.brown {
+    background-color: $l-brown;
+    color: $l-white;
+    &:hover {
+      background-color: $l-brown-hover;
+    }
+    &:active {
+      background-color: $l-brown-active;
+    }
+  }
+  
+}
