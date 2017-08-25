@@ -58,12 +58,16 @@ body {
     border-radius: 500px 3px 3px 500px; }
   .btn-filled.round-right {
     border-radius: 3px 500px 500px 3px; }
+  .btn-filled.square {
+    border-radius: 0; }
   .btn-filled.small {
     font-size: 0.8em;
     padding: 4px 8px; }
   .btn-filled.xlarge {
     font-size: 1.4em;
     padding: 25px 30px; }
+  .btn-filled.massive-border {
+    border-width: 3px; }
   .btn-filled:disabled {
     opacity: 0.5; }
   .btn-filled:hover {
@@ -179,6 +183,8 @@ body {
   text-align: center;
   cursor: pointer;
   outline: none; }
+  .btn-outline.massive-border {
+    border-width: 3px; }
   .btn-outline.rounded {
     border-radius: 500px; }
   .btn-outline.round-left {
@@ -191,6 +197,8 @@ body {
   .btn-outline.xlarge {
     font-size: 1.4em;
     padding: 25px 30px; }
+  .btn-outline.square {
+    border-radius: 0; }
   .btn-outline:disabled {
     opacity: 0.5; }
   .btn-outline:hover {
@@ -306,6 +314,8 @@ body {
   .btn-default.xlarge {
     font-size: 1.4em;
     padding: 25px 30px; }
+  .btn-default.square {
+    border-radius: 0; }
   .btn-default.old {
     border-radius: 500px;
     box-shadow: inset 0 0 6px 5px rgba(255, 255, 255, 0.24); }

@@ -73,6 +73,10 @@ body {
     border-radius: 3px 500px 500px 3px
   }
   
+  &.square {
+    border-radius: 0;
+  }
+  
   &.small {
     font-size: 0.8em;
     padding: $l-btn-padding-sm;
@@ -81,6 +85,10 @@ body {
   &.xlarge {
     font-size: 1.4em;
     padding: $l-btn-padding-xlg;
+  }
+  
+  &.massive-border {
+    border-width: 3px;
   }
   
   &:disabled {
@@ -248,6 +256,11 @@ body {
   
   outline: none;
   
+     
+  &.massive-border {
+    border-width: 3px; 
+  } 
+  
   
   &.rounded {
     border-radius: 500px;
@@ -268,6 +281,10 @@ body {
   &.xlarge {
     font-size: 1.4em;
     padding: $l-btn-padding-xlg;
+  }
+  
+  &.square {
+    border-radius: 0;
   }
   
   &:disabled {
@@ -443,6 +460,10 @@ body {
   &.xlarge {
     font-size: 1.4em;
     padding: $l-btn-padding-xlg;
+  }
+  
+  &.square {
+    border-radius: 0;
   }
   
   &.old {
