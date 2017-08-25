@@ -6,6 +6,6 @@
 
 ### About
 
-Loyalty is a new moden css framework for people. So many classes are need for every front-end developer.
+Fantasia is a new modern-css framework for people. So many classes are need for every front-end developer.
 
-
+For examples and code, you can visit my website: [yorkbc2.github.io](https://yorkbc2.github.io)
