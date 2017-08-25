@@ -1,4 +1,6 @@
-# Loyalty.css
+# Fantasia
+
+![Fantsia Logotype](http://doublex-studio.com/f-logo.png)
 
 ### New modern css framework for a responsive and ease design. 
 
