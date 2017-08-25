@@ -11,7 +11,7 @@ $col10: 83.3%;
 $col11: 91.6666666667%;
 $col12: calc(100% / 1);
 
-.container {
+.contain {
   position: relative;
   display: flex;
   padding: 0 25px;
@@ -75,10 +75,47 @@ $col12: calc(100% / 1);
   &.md12 {
     flex-basis: $col12;
   }
+  
+  &.off1 {
+    margin-left: $col1;
+  }
+  &.off2 {
+    margin-left: $col2;
+  }
+  &.off3 {
+    margin-left: $col3;
+  }
+  &.off4 {
+    margin-left: $col4;
+  }
+  &.off5 {
+    margin-left: $col5;
+  }
+  &.off6 {
+    margin-left: $col6; 
+  }
+  &.off7 {
+    margin-left: $col7;
+  }
+  &.off8 {
+    margin-left: $col8;
+  }
+  &.off9 {
+    margin-left: $col9;
+  }
+  &.off10 {
+    margin-left: $col10;
+  }
+  &.off11 {
+    margin-left: $col11;
+  }
+  &.off12 {
+    margin-left: $col12;
+  }
 }
 
 @media screen and (max-width: 720px) {
-  .container {
+  .contain {
     padding: 0 0;
   }
 }

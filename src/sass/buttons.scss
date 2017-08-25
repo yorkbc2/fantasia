@@ -15,8 +15,11 @@ $l-btn-margin: 5px 2px;
 //--------------
 // Paddings
 
+
 $l-btn-padding: 10px 15px;
 $l-btn-padding-lg: 20px 25px;
+$l-btn-padding-sm: 4px 8px;
+$l-btn-padding-xlg: 25px 30px;
 
 //------------
 
@@ -33,6 +36,198 @@ body {
     outline: none;
   }
 }
+
+
+
+
+.btn-filled {
+  position: static;
+  display: inline-block;
+  
+  background-color: transparent;
+  border: $l-btn-border;
+  border-color: #757474;
+  color: #757474;
+  
+  padding: $l-btn-padding;
+  margin: $l-btn-margin;
+  
+  border-radius: 3px;
+  font-size: 1.1em;
+  text-align: center;
+  cursor: pointer;
+  
+  outline: none;
+  
+  transition: all .2s ease-in-out; 
+  
+  
+  &.rounded {
+    border-radius: 500px;
+  }
+  
+  &.round-left {
+    border-radius: 500px 3px 3px 500px;
+  }
+  &.round-right {
+    border-radius: 3px 500px 500px 3px
+  }
+  
+  &.small {
+    font-size: 0.8em;
+    padding: $l-btn-padding-sm;
+  }
+  
+  &.xlarge {
+    font-size: 1.4em;
+    padding: $l-btn-padding-xlg;
+  }
+  
+  &:disabled {
+    opacity: 0.5;
+  }
+  
+  &:hover {
+    color: #ffffff;
+    background-color: #757474;
+  }
+  
+  &.red {
+    border-color: $l-red;
+    color: $l-red;
+    &:hover {
+      border-color: $l-red-hover;
+      color: $l-white;
+      background-color: $l-red-hover;
+    }
+    &:active {
+      border-color: $l-red-active;
+      color: $l-white;
+      background-color: $l-red-active;
+    }
+  }
+  
+  &.blue {
+    border-color: $l-blue;
+    color: $l-blue;
+    &:hover {
+      border-color: $l-blue-hover;
+      color: $l-white;
+      background-color: $l-blue-hover;
+    }
+    &:active {
+      border-color: $l-blue-active;
+      color: $l-white;
+      background-color: $l-blue-active;
+    }
+  }
+  
+  &.green {
+    border-color: $l-green;
+    color: $l-green;
+    &:hover {
+      border-color: $l-green-hover;
+      color: $l-white;
+      background-color: $l-green-hover;
+    }
+    &:active {
+      border-color: $l-green-active;
+      color: $l-white;
+      background-color: $l-green-active;
+    }
+  }
+  
+  &.orange {
+    border-color: $l-orange;
+    color: $l-orange;
+    &:hover {
+      border-color: $l-orange-hover;
+      color: $l-white;
+      background-color: $l-orange-hover;
+    }
+    &:active {
+      border-color: $l-orange-active;
+      color: $l-white;
+      background-color: $l-orange-active;
+    }
+  }
+  
+  &.pink {
+    border-color: $l-pink;
+    color: $l-pink;
+    &:hover {
+      border-color: $l-pink-hover;
+      color: $l-white;
+      background-color: $l-pink-hover;
+    }
+    &:active {
+      border-color: $l-pink-active;
+      color: $l-white;
+      background-color: $l-pink-active;
+    }
+  }
+  &.black {
+    border-color: $l-black;
+    color: $l-black;
+    &:hover {
+      border-color: $l-black-hover;
+      color: $l-white;
+      background-color: $l-black-hover;
+    }
+  }
+
+  
+  &.purple {
+    border-color: $l-purple;
+    color: $l-purple;
+    &:hover {
+      border-color: $l-purple-hover;
+      color: $l-white;
+      background-color: $l-purple-hover;
+    }
+    &:active {
+      border-color: $l-purple-active;
+      color: $l-white;
+      background-color: $l-purple-active;
+    }
+  }
+  
+  &.brown {
+    border-color: $l-brown;
+    color: $l-brown;
+    &:hover {
+      border-color: $l-brown-hover;
+      color: $l-white;
+      background-color: $l-brown-hover;
+    }
+    &:active {
+      border-color: $l-brown-active;
+      color: $l-white;
+      background-color: $l-brown-active;
+    }
+  }
+  
+  &.gray {
+    border-color: $l-gray;
+    color: $l-gray;
+    &:hover {
+      border-color: $l-gray-hover;
+      color: $l-white;
+      background-color: $l-gray-hover;
+    }
+    &:active {
+      border-color: $l-gray-active;
+      color: $l-white;
+      background-color: $l-gray-active;
+    } 
+  }
+  
+  
+}
+
+
+
+
 
 .btn-outline {
   position: static;
@@ -52,6 +247,32 @@ body {
   cursor: pointer;
   
   outline: none;
+  
+  
+  &.rounded {
+    border-radius: 500px;
+  }
+  
+  &.round-left {
+    border-radius: 500px 3px 3px 500px;
+  }
+  &.round-right {
+    border-radius: 3px 500px 500px 3px
+  }
+  
+  &.small {
+    font-size: 0.8em;
+    padding: $l-btn-padding-sm;
+  }
+  
+  &.xlarge {
+    font-size: 1.4em;
+    padding: $l-btn-padding-xlg;
+  }
+  
+  &:disabled {
+    opacity: 0.5;
+  }
   
   &:hover {
     color: #333;
@@ -202,6 +423,36 @@ body {
   margin: $l-btn-margin;
   
   cursor: pointer;
+  
+  &.rounded {
+    border-radius: 500px;
+  }
+  
+  &.round-left {
+    border-radius: 500px 3px 3px 500px;
+  }
+  &.round-right {
+    border-radius: 3px 500px 500px 3px
+  }
+  
+  &.small {
+    font-size: 0.8em;
+    padding: $l-btn-padding-sm;
+  }
+  
+  &.xlarge {
+    font-size: 1.4em;
+    padding: $l-btn-padding-xlg;
+  }
+  
+  &.old {
+    border-radius: 500px;
+    box-shadow: inset 0 0 6px 5px rgba(255,255,255,0.24); 
+  }
+  
+  &:disabled {
+    opacity: 0.5;
+  }
   
   &:hover {
     background-color: $l-white-hover;

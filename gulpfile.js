@@ -7,12 +7,12 @@ var concat = require("gulp-concat")
 gulp.task("sass", function () {
   return gulp.src("./src/sass/*.scss")
     .pipe(sass.sync().on("error", sass.logError))
-    .pipe(concat("loyalty.scss"))
+    .pipe(concat("fantasia.scss"))
     .pipe(gulp.dest("./dist"));
 });
 
 gulp.task("css", function () {
-  return gulp.src("./dist/loyalty.scss")
+  return gulp.src("./dist/fantasia.scss")
     .pipe(sass.sync().on("error", sass.logError))
     .pipe(gulp.dest("./dist"))
 })

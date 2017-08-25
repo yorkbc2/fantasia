@@ -1,0 +1,34 @@
+$l-list-colors-red: #ff5b5b, #fb4848, #ef2929, #f11b1b, #f36464, #e87272, #fd8f8f;
+$l-list-color-names-red: red, red--plus-1, red--plus-2, red--plus-3, red--minus-1, red--minus-2, red--minus-3;
+ 
+$l-list-colors-blue: #19aff3, #16b5fd, #16bdfd, #00c4ff, #2dafea, #349fd0, #258fbf;
+$l-list-color-names-blue: blue, blue--plus-1, blue--plus-2, blue--plus-3, blue--minus-1, blue--minus-2, blue--minus-3;  
+
+$l-list-colors-green: #40b345, #3bce41, #29d430, #09de11, #429e46, #47964b, #2c8430;
+$l-list-color-names-green: green, green--plus-1, green--plus-2, green--plus-3, green--minus-1, green--minus-2, green--minus-3;  
+ 
+$ri: 1;
+@each $red-color in $l-list-color-names-red {
+  .bg-#{$red-color} {
+    background-color: nth($l-list-colors-red, $ri)!important;   
+  }
+  $ri: $ri + 1;
+}  
+
+ 
+
+$bi: 1;
+@each $blue-color in $l-list-color-names-blue {
+  .bg-#{$blue-color} {
+    background-color: nth($l-list-colors-blue, $bi)!important;   
+  }
+  $bi: $bi + 1;
+}   
+
+$gi: 1;
+@each $green-color in $l-list-color-names-green {
+  .bg-#{$green-color} {
+    background-color: nth($l-list-colors-green, $gi)!important;   
+  }
+  $gi: $gi + 1; 
+}   
