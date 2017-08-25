@@ -303,8 +303,18 @@ body {
   flex-direction: row;
   flex-wrap: wrap; }
 
+.panel {
+  width: 100%;
+  padding: 15px 0;
+  min-height: 10px;
+  background-color: #fff3f3;
+  border: 1px solid #e7e7e7;
+  border-radius: 3px;
+  text-align: center;
+  margin: 4px; }
+
 .col.md1 {
-  flex-basis: calc(100% / 12); }
+  flex-basis: 8.33333%; }
 
 .col.md2 {
   flex-basis: calc(100% / 6); }
@@ -316,25 +326,25 @@ body {
   flex-basis: calc( 100% / 3); }
 
 .col.md5 {
-  flex-basis: 41.67%; }
+  flex-basis: 41.66667%; }
 
 .col.md6 {
   flex-basis: calc(100% / 2); }
 
 .col.md7 {
-  flex-basis: calc(100% / 6); }
+  flex-basis: 58.33333%; }
 
 .col.md8 {
-  flex-basis: calc( 100% / 4); }
+  flex-basis: 66.66667%; }
 
 .col.md9 {
-  flex-basis: calc( 100% / 3); }
+  flex-basis: 75%; }
 
 .col.md10 {
-  flex-basis: 41.67%; }
+  flex-basis: 83.3%; }
 
 .col.md11 {
-  flex-basis: calc(100% / 2); }
+  flex-basis: 91.66667%; }
 
 .col.md12 {
   flex-basis: calc(100% / 1); }

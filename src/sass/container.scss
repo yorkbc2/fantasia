@@ -1,14 +1,14 @@
-$col1: calc(100% / 12);
+$col1: 8.33333%;
 $col2: calc(100% / 6 );
 $col3: calc( 100% / 4);
 $col4: calc( 100% / 3);
-$col5: 41.67%;
+$col5: 41.66666667%;
 $col6: calc(100% / 2);
 $col7: 58.33333%;
 $col8: 66.66666666667%;
 $col9: 75%;
 $col10: 83.3%;
-$col11: 91.67%;
+$col11: 91.6666666667%;
 $col12: calc(100% / 1);
 
 .container {
@@ -30,10 +30,12 @@ $col12: calc(100% / 1);
 .panel {
   width: 100%;
   padding: 15px 0;
-  min-height: 40px;
+  min-height: 10px;
   background-color: #fff3f3;
   border: 1px solid #e7e7e7;
   border-radius: 3px;
+  text-align: center;
+  margin: 4px;
 }
 
 .col {
@@ -56,19 +58,19 @@ $col12: calc(100% / 1);
     flex-basis: $col6;
   }
   &.md7 {
-    flex-basis: $col2;
+    flex-basis: $col7;
   }
   &.md8 {
-    flex-basis: $col3;
+    flex-basis: $col8;
   }
   &.md9 {
-    flex-basis: $col4;
+    flex-basis: $col9;
   }
   &.md10 {
-    flex-basis: $col5;
+    flex-basis: $col10;
   }
   &.md11 {
-    flex-basis: $col6;
+    flex-basis: $col11;
   }
   &.md12 {
     flex-basis: $col12;
