@@ -574,6 +574,29 @@ body {
 .btn-group button:last-child {
   border-radius: 0 6px 6px 0; }
 
+.card {
+  position: relative;
+  perspective: 1000px;
+  min-height: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  display: block;
+  padding: 0;
+  border: 1px solid #e7e7e7;
+  box-shadow: 1px 2px 3px #333333; }
+
+.card .card-image {
+  width: 100%;
+  height: 240px;
+  overflow: hidden; }
+
+.card .card-image img {
+  width: 100%;
+  height: auto; }
+
+.card .card-body {
+  padding: 20px 25px; }
+
 .text-white {
   color: #fff; }
 
@@ -711,6 +734,9 @@ body {
   display: flex;
   padding: 0 25px;
   flex-direction: column; }
+
+.contain.fluid {
+  padding: 0 0; }
 
 .row {
   display: flex;
