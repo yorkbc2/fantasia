@@ -421,6 +421,11 @@ body {
     }
   }
   
+  &.large {
+    padding: $l-btn-padding-lg;
+    font-size: 1.3em;
+  }
+  
   
 }
 

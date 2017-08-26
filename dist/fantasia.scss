@@ -290,6 +290,9 @@ body {
     .btn-outline.gray:active {
       border-color: #37474e;
       color: #37474e; }
+  .btn-outline.large {
+    padding: 20px 25px;
+    font-size: 1.3em; }
 
 .btn-default {
   position: static;

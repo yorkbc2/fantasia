@@ -1,0 +1,26 @@
+{
+  "name": "fantasia",
+  "description": "Fantasia is a CSS responsive-moder framework",
+  "version": "0.3",
+  "main": [
+    "dist/fantasia.css"
+  ],
+  "keywords": [
+    "Css",
+    "responsive",
+    "library",
+    "framework",
+    "UI",
+    "UX"
+  ],
+  "authors": [
+    "Alex Yorke <yorkbc2@gmail.com>"
+  ],
+  "ignore": [
+    "*.html",
+    "gulpfile.js",
+    "node_modules",
+    "test",
+    "package.json"
+  ]
+}

@@ -4,3 +4,7 @@ node_modules
 node_modules/
 public/
 public
+yarn.lock
+gulpfile.js
+favicon.png
+index.html
